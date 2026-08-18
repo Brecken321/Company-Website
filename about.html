@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About us | Northwind Studio</title>
+<meta name="description" content="A family-run web studio — our dad owns it, the two of us build the sites. Here's who we are, how we work, and what our toolkit actually is.">
+<meta name="theme-color" content="#0a090c">
+<meta property="og:type" content="website">
+<meta property="og:title" content="About us | Northwind Studio">
+<meta property="og:description" content="A family-run web studio building custom sites for small businesses.">
+<meta property="og:image" content="assets/img/work/auntiems-home.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23f2a54c'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='19' font-weight='bold' text-anchor='middle' fill='%2317130c'%3EN%3C/text%3E%3C/svg%3E">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">N</span>
+      <span>Northwind Studio</span>
+    </a>
+
+    <nav class="nav" id="primary-nav" aria-label="Main">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="handover.html">Handover</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta-mobile"><a class="btn" href="contact.html">Start a project</a></div>
+    </nav>
+
+    <div class="header-cta">
+      <a class="btn btn-sm" href="contact.html">Start a project</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Menu">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============================================================ hero -- -->
+  <section class="hero" style="padding-bottom:clamp(2rem,5vw,3rem)">
+    <div class="hero-glow" aria-hidden="true"></div>
+
+    <div class="container">
+      <p class="eyebrow hero-fade" style="--d:80ms">Who we are</p>
+      <h1 class="h-xl hero-title" style="max-width:14ch">
+        <span class="line"><span style="--d:120ms">Hi. We're</span></span>
+        <span class="line"><span style="--d:220ms">the whole</span></span>
+        <span class="line"><span style="--d:320ms">company.</span></span>
+      </h1>
+      <p class="lede hero-lede hero-fade" style="--d:460ms">
+        Three of us, one family, and a stubborn belief that a small business
+        deserves a website as good as the one a chain would pay thirty grand for.
+      </p>
+    </div>
+  </section>
+
+  <!-- =========================================================== video -- -->
+  <section class="section" style="padding-top:clamp(1.5rem,4vw,2.5rem)">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow eyebrow-plain" data-reveal="fade">Say hello</p>
+        <h2 class="h-md" data-reveal>Rather hear it from us?</h2>
+      </div>
+
+      <!--
+        ===================================================================
+        YOUR INTRO VIDEO GOES HERE.
+        Drop an MP4 at:  assets/video/intro.mp4
+        Optionally add a still frame at: assets/img/video-poster.jpg
+        The placeholder below disappears on its own once the file exists.
+        ===================================================================
+      -->
+      <div class="video-frame" data-video data-reveal="zoom">
+        <video hidden playsinline preload="none" poster="assets/img/video-poster.jpg">
+          <source src="assets/video/intro.mp4" type="video/mp4">
+          Your browser can't play this video.
+        </video>
+
+        <div class="video-placeholder">
+          <div class="video-play" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4.5v15l13-7.5z"/></svg>
+          </div>
+          <p>
+            <strong>Our intro video goes here</strong>
+            Thirty seconds of the two of us saying our names, what we do, and why
+            we do it this way.
+          </p>
+        </div>
+      </div>
+
+      <p class="video-note mx-auto maxw-md" data-reveal="fade">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="flex:none;margin-top:.35em" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.5v.5"/></svg>
+        <span>Save your video as <code>assets/video/intro.mp4</code> and this placeholder swaps itself out for the real player. Nothing else to change.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ========================================================= the two -- -->
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow" data-reveal="fade">The team</p>
+        <h2 class="h-lg" data-reveal>Three of us, start to finish.</h2>
+        <p class="lede" data-reveal style="--d:100ms">
+          Dad runs the business. The two of us build the websites. That's the
+          entire org chart.
+        </p>
+      </div>
+
+      <!--
+        ===================================================================
+        THE THREE OF YOU. Replace each name and bio, then delete the
+        class="ph" bits so they stop showing as orange placeholders.
+        The letter in each coloured circle is that person's initial.
+        ===================================================================
+      -->
+      <div class="founders" data-stagger="120">
+        <article class="founder" data-reveal>
+          <div class="founder-avatar" aria-hidden="true">D</div>
+          <h3 class="h-sm"><span class="ph">Your dad's name</span></h3>
+          <p class="role">Owner</p>
+          <p>
+            <span class="ph">Two or three sentences about your dad</span> &mdash; what
+            he did before this, and what he handles now. He's the one clients
+            shake hands with, so this bio is worth getting right.
+          </p>
+        </article>
+
+        <article class="founder" data-reveal>
+          <div class="founder-avatar" aria-hidden="true">1</div>
+          <h3 class="h-sm"><span class="ph">Your name</span></h3>
+          <p class="role">Design &amp; build</p>
+          <p>
+            <span class="ph">Two or three sentences about you</span> &mdash; what you
+            handle on a project, and one human detail that isn't about work.
+            People buy from people; this is where they meet you.
+          </p>
+        </article>
+
+        <article class="founder" data-reveal>
+          <div class="founder-avatar" aria-hidden="true">2</div>
+          <h3 class="h-sm"><span class="ph">Your sister's name</span></h3>
+          <p class="role">Words &amp; client care</p>
+          <p>
+            <span class="ph">Two or three sentences about her</span> &mdash; same idea.
+            What she does, and something that makes her a person rather than a
+            job title.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================== story -- -->
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="split split-wide-left">
+        <div>
+          <p class="eyebrow" data-reveal="fade">What we do</p>
+          <h2 class="h-lg mb-3" data-reveal>We build the whole thing, from scratch.</h2>
+          <div class="prose" data-reveal style="--d:100ms">
+            <p>
+              A lot of small business websites are made the fast way: a ready-made
+              template and a monthly subscription. That gets you online, and for
+              some businesses it's genuinely enough. The catch is that it's slow,
+              it looks like a thousand other sites, and it stops being yours the
+              day you stop paying.
+            </p>
+            <p>
+              We go the other way. Your site is built for your business and
+              nothing else, which is why it ends up quick, sturdy and unlike
+              anyone else's. When we hand it over, it's yours outright.
+            </p>
+            <p>
+              We're not trying to become an agency. We like it small.
+            </p>
+          </div>
+        </div>
+
+        <figure class="browser" data-reveal="right" data-tilt>
+          <div class="browser-bar" aria-hidden="true">
+            <div class="browser-dots"><i></i><i></i><i></i></div>
+            <span class="browser-url">auntiemsdeerwood.com</span>
+          </div>
+          <img class="browser-shot" src="assets/img/work/auntiems-gallery.jpg"
+               alt="The gallery page of the Auntie M's website we built, showing a grid of photographs."
+               width="1500" height="1055" loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================== toolchain -- -->
+  <section class="section" id="how-we-build" style="padding-top:0">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow" data-reveal="fade">Our toolkit</p>
+        <h2 class="h-lg mb-3" data-reveal>Yes, we use AI. Here's exactly how.</h2>
+        <p class="lede" data-reveal style="--d:100ms">
+          We'd rather tell you plainly than have you wonder. It writes the first
+          draft of the code quickly. We do everything that decides whether the
+          finished thing is any good.
+        </p>
+      </div>
+
+      <div class="grid grid-2" data-stagger="120">
+        <article class="card" data-reveal="left">
+          <div class="work-tags" style="margin-top:0;margin-bottom:1rem">
+            <span class="pill pill-violet">The assistant</span>
+          </div>
+          <h3 class="h-sm">What it speeds up</h3>
+          <ul class="ledger ledger-violet">
+            <li>The first draft of the code</li>
+            <li>The repetitive parts we'd otherwise retype every time</li>
+            <li>Spotting typos and broken links</li>
+            <li>Checking a page at every screen size</li>
+          </ul>
+        </article>
+
+        <article class="card" data-reveal="right">
+          <div class="work-tags" style="margin-top:0;margin-bottom:1rem">
+            <span class="pill pill-amber">The two of us</span>
+          </div>
+          <h3 class="h-sm">What we do ourselves</h3>
+          <ul class="ledger">
+            <li>Deciding what your site should say, and in what order</li>
+            <li>The whole design &mdash; how it looks and how it reads</li>
+            <li>Writing the words on every page</li>
+            <li>Reading every line of code before it goes out</li>
+            <li>Testing it on real phones and laptops</li>
+            <li>Sitting down with you and explaining it in plain English</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="mx-auto mt-6" style="max-width:760px">
+        <h3 class="h-md mb-3" data-reveal>Why this matters to you</h3>
+        <div class="prose" data-reveal style="--d:100ms">
+          <p>
+            Left to itself, an AI assistant writes things that look finished and
+            quietly aren't &mdash; a menu that reads wrong on a phone, an address
+            Google can't understand, a contact form that goes nowhere. You only
+            catch that by sitting down and checking, so that's what we do.
+          </p>
+          <p>
+            It makes us faster, not lazier. The time it saves goes back into
+            the research, the design and the testing &mdash; the parts that decide
+            whether your website actually brings anyone through the door.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ FAQ -- -->
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow eyebrow-plain" data-reveal="fade">Fair questions</p>
+        <h2 class="h-lg" data-reveal>The things people ask us.</h2>
+      </div>
+
+      <div class="faq mx-auto" style="max-width:820px" data-reveal="fade">
+        <details>
+          <summary>Do you use AI to build these?</summary>
+          <div class="faq-body">
+            <p>Yes, as a coding assistant, and we'd rather tell you than have you find out later. It writes the first draft of the code quickly. The research, the design, the words, the testing and the final read of every line are ours &mdash; and nothing goes on your site that one of us hasn't checked.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Does that mean it's a template?</summary>
+          <div class="faq-body">
+            <p>No. A template is one design sold to thousands of businesses. Yours is designed for your business and built from nothing, which is why no two of our sites look alike.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Can you use my own photos?</summary>
+          <div class="faq-body">
+            <p>Please do. Real photos of your actual place beat stock images every time. If you don't have good ones, we'll say so and talk through the options.</p>
+          </div>
+        </details>
+        <details>
+          <summary>How long does it take?</summary>
+          <div class="faq-body">
+            <p><span class="ph">Add your usual timeline</span>. It depends on how many pages you need and how quickly we can get your menu, hours and photos &mdash; but we'll give you a straight answer at the start.</p>
+          </div>
+        </details>
+        <details>
+          <summary>What if I already have a website?</summary>
+          <div class="faq-body">
+            <p>That's usually the easiest kind of job. We'll show you a new one next to what you've got, and you can judge for yourself whether it's worth changing.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ CTA -- -->
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="cta-band" data-reveal="zoom">
+        <h2 class="h-lg">Still reading? Let's talk.</h2>
+        <p class="lede center">
+          Tell us about your business. Worst case, you get a free look at what
+          your website could be.
+        </p>
+        <div class="cta-actions">
+          <a class="btn" href="contact.html">
+            Get in touch
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="work.html">See a finished build</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true">N</span>
+          <span>Northwind Studio</span>
+        </a>
+        <p>
+          A family-run web studio building custom websites for small
+          businesses in Minnesota and beyond.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="handover.html">Handover</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="contact.html"><span class="ph">your@email.com</span></a></li>
+          <li><a href="contact.html"><span class="ph">(000) 000-0000</span></a></li>
+          <li><a href="contact.html">Send us a message</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span data-year>2026</span> Northwind Studio. All rights reserved.</p>
+      <p>Designed &amp; built in Minnesota.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
